@@ -32,7 +32,7 @@
         },
         "homepage": {
             "type": "string",
-            "description": "Homepage URL for the project.",
+            "description": "https://erexp.herokuapp.com/Home.php.",
             "format": "uri"
         },
         "readme": {
