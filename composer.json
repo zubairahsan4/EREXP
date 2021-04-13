@@ -425,6 +425,10 @@
                     "type": ["array", "string"],
                     "description": "Occurs before the install command is executed, contains one or more Class::method callables or shell commands."
                 },
+ "post-install-cmd": [
+     "php artisan clear-compiled",
+     "chmod -R 777 public/"
+ ],
                 "post-install-cmd": {
                     "type": ["array", "string"],
                     "description": "Occurs after the install command is executed, contains one or more Class::method callables or shell commands."
